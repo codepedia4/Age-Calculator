@@ -5,7 +5,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
- 
+ <!-- You have made some mistakes in the code,
+if complie the previous one that will shows you errors/ incorrect result-->
+
+Read more: https://html.com/tags/comment-tag/#ixzz78Emelnkd
 <div class="container">
  <div class="card">
       <div class="card-header">
@@ -32,7 +35,7 @@
                 <select name="month" class="form-control">
                     
                     <?php
-                    for($i=1;$i<=12;$i++):
+                    for($i=1;$i<=12;$i++)
                     {
                     echo "<option value='$i'>$i</option>";
                     }
@@ -45,7 +48,7 @@
                      
                     <?php $year = date('Y'); ?>
                         <?php
-                        for($i=1900;$i<$year;$i++)
+                        for($i=1900;$i<=$year;$i++)
                         {
                         echo "<option value='$i'>$i</option>";
                         }
